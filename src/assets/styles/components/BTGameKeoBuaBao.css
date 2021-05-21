@@ -15,6 +15,7 @@
 
 .playerChoice {
     border: 5px solid green;
+    border-radius: 5px;
     width: 150px;
     height: 150px;
     background-color: white;
@@ -22,6 +23,7 @@
     display:flex;   
     position: relative;
 }
+
 .playerChoice::after {
     content: '';
     position: absolute;
@@ -30,6 +32,7 @@
     bottom: -30%;
     left: 37%;
 }
+
 .player {
     width: 150px;
     height: 150px;
@@ -39,12 +42,17 @@
 .playerImg {
     width: 50%;
     margin: auto;
-
+}
+.playerImg2 {
+    width: 50%;
+    margin: auto;
+    transform:rotate(180deg)
 }
 .resultText {
     font-size: 40px;
     color: orange;
 }
+
 .resultText1 {
     font-size: 40px;
     color: yellowgreen;
