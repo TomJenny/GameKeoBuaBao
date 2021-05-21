@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import KetQuaTroChoi from './KetQuaTroChoi'
 import '../assets/styles/components/BTGameKeoBuaBao.css'
-
 import Player from './Player';
 import AI from './AI';
 export default class BTGameKeoBuaBao extends Component {
@@ -22,8 +21,6 @@ export default class BTGameKeoBuaBao extends Component {
                     </div>
                 </div >
             </div >
-
-
         )
     }
 }
