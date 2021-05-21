@@ -1,0 +1,65 @@
+@font-face {
+    font-family: fontGame;
+    src: url('../../fonts/Pony.ttf');
+}
+
+.bgGame {
+    background: url('../../img/bgGame.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+    font-family: fontGame;
+}
+
+.playerChoice {
+    border: 5px solid green;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    margin: 0 auto;
+    display:flex;   
+    position: relative;
+}
+.playerChoice::after {
+    content: '';
+    position: absolute;
+    border-top: 40px solid green;
+    border-right: 40px solid transparent;
+    bottom: -30%;
+    left: 37%;
+}
+.player {
+    width: 150px;
+    height: 150px;
+    margin-top:10px;
+}
+
+.playerImg {
+    width: 50%;
+    margin: auto;
+
+}
+.resultText {
+    font-size: 40px;
+    color: orange;
+}
+.resultText1 {
+    font-size: 40px;
+    color: yellowgreen;
+}
+
+.ChoiceImgButton {
+    width: 25px;
+    margin: auto;
+
+}
+.btn-warning.focus, .btn-warning:focus {
+    border-color: transparent!important;
+    box-shadow: 0 0 0 0.2rem orange;
+}
+
+.btn-warning {
+    border-color: transparent!important;
+}
