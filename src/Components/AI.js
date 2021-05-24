@@ -17,7 +17,9 @@ class AI extends Component {
                         {keyframe}
                     </style>
                     <img src={RamdomKeoBuaBao.hinhAnh} alt={RamdomKeoBuaBao.name}
-                        style={{ animation: `randomItem${Date.now()} 0.5s` }}
+                        style={{
+                            animation: `randomItem${Date.now()} 0.5s`
+                        }}
                         className={RamdomKeoBuaBao.name === 'Bua' ? 'playerImg' : 'playerImg2'} />
                 </div>
                 <img src='./img/playerComputer.png' alt="player" className="player" />
